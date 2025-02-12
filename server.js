@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["https://prostaysite.netlify.app"],
+    origin: ["https://onrenderprostaysite.netlify.app"],
     credentials: true,
     methods: ["POST", "GET", "PUT", "DELETE"],
   })
